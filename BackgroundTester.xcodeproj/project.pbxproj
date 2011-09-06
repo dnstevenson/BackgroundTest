@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		556679E31407F1CE0077E415 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556679E21407F1CE0077E415 /* UIKit.framework */; };
+		556679E51407F1CE0077E415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556679E41407F1CE0077E415 /* Foundation.framework */; };
+		556679E71407F1CE0077E415 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556679E61407F1CE0077E415 /* CoreGraphics.framework */; };
+		556679ED1407F1CE0077E415 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 556679EB1407F1CE0077E415 /* InfoPlist.strings */; };
+		556679EF1407F1CE0077E415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 556679EE1407F1CE0077E415 /* main.m */; };
+		556679F31407F1CE0077E415 /* BackgroundTesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 556679F21407F1CE0077E415 /* BackgroundTesterAppDelegate.m */; };
+		556679F61407F1CE0077E415 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 556679F41407F1CE0077E415 /* MainWindow.xib */; };
+		556679F91407F1CE0077E415 /* BackgroundTesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556679F81407F1CE0077E415 /* BackgroundTesterViewController.m */; };
+		556679FC1407F1CE0077E415 /* BackgroundTesterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 556679FA1407F1CE0077E415 /* BackgroundTesterViewController.xib */; };
+		55667A0C140D81250077E415 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55667A0B140D81250077E415 /* CoreLocation.framework */; };
+		55667A1B140ECFF30077E415 /* audio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 55667A1A140ECFF30077E415 /* audio.m4a */; };
+		55667A20140ED0DB0077E415 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55667A1F140ED0DB0077E415 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		556679DE1407F1CE0077E415 /* BackgroundTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		556679E21407F1CE0077E415 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		556679E41407F1CE0077E415 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		556679E61407F1CE0077E415 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		556679EA1407F1CE0077E415 /* BackgroundTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackgroundTester-Info.plist"; sourceTree = "<group>"; };
+		556679EC1407F1CE0077E415 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		556679EE1407F1CE0077E415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		556679F01407F1CE0077E415 /* BackgroundTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackgroundTester-Prefix.pch"; sourceTree = "<group>"; };
+		556679F11407F1CE0077E415 /* BackgroundTesterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundTesterAppDelegate.h; sourceTree = "<group>"; };
+		556679F21407F1CE0077E415 /* BackgroundTesterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundTesterAppDelegate.m; sourceTree = "<group>"; };
+		556679F51407F1CE0077E415 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		556679F71407F1CE0077E415 /* BackgroundTesterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundTesterViewController.h; sourceTree = "<group>"; };
+		556679F81407F1CE0077E415 /* BackgroundTesterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundTesterViewController.m; sourceTree = "<group>"; };
+		556679FB1407F1CE0077E415 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BackgroundTesterViewController.xib; sourceTree = "<group>"; };
+		55667A0B140D81250077E415 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		55667A1A140ECFF30077E415 /* audio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio.m4a; sourceTree = SOURCE_ROOT; };
+		55667A1F140ED0DB0077E415 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		556679DB1407F1CE0077E415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55667A20140ED0DB0077E415 /* AVFoundation.framework in Frameworks */,
+				55667A0C140D81250077E415 /* CoreLocation.framework in Frameworks */,
+				556679E31407F1CE0077E415 /* UIKit.framework in Frameworks */,
+				556679E51407F1CE0077E415 /* Foundation.framework in Frameworks */,
+				556679E71407F1CE0077E415 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		556679D31407F1CE0077E415 = {
+			isa = PBXGroup;
+			children = (
+				556679E81407F1CE0077E415 /* BackgroundTester */,
+				556679E11407F1CE0077E415 /* Frameworks */,
+				556679DF1407F1CE0077E415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		556679DF1407F1CE0077E415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				556679DE1407F1CE0077E415 /* BackgroundTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		556679E11407F1CE0077E415 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55667A1F140ED0DB0077E415 /* AVFoundation.framework */,
+				55667A0B140D81250077E415 /* CoreLocation.framework */,
+				556679E21407F1CE0077E415 /* UIKit.framework */,
+				556679E41407F1CE0077E415 /* Foundation.framework */,
+				556679E61407F1CE0077E415 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		556679E81407F1CE0077E415 /* BackgroundTester */ = {
+			isa = PBXGroup;
+			children = (
+				556679F11407F1CE0077E415 /* BackgroundTesterAppDelegate.h */,
+				556679F21407F1CE0077E415 /* BackgroundTesterAppDelegate.m */,
+				556679F41407F1CE0077E415 /* MainWindow.xib */,
+				556679F71407F1CE0077E415 /* BackgroundTesterViewController.h */,
+				556679F81407F1CE0077E415 /* BackgroundTesterViewController.m */,
+				556679FA1407F1CE0077E415 /* BackgroundTesterViewController.xib */,
+				556679E91407F1CE0077E415 /* Supporting Files */,
+			);
+			path = BackgroundTester;
+			sourceTree = "<group>";
+		};
+		556679E91407F1CE0077E415 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55667A1A140ECFF30077E415 /* audio.m4a */,
+				556679EA1407F1CE0077E415 /* BackgroundTester-Info.plist */,
+				556679EB1407F1CE0077E415 /* InfoPlist.strings */,
+				556679EE1407F1CE0077E415 /* main.m */,
+				556679F01407F1CE0077E415 /* BackgroundTester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		556679DD1407F1CE0077E415 /* BackgroundTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556679FF1407F1CE0077E415 /* Build configuration list for PBXNativeTarget "BackgroundTester" */;
+			buildPhases = (
+				556679DA1407F1CE0077E415 /* Sources */,
+				556679DB1407F1CE0077E415 /* Frameworks */,
+				556679DC1407F1CE0077E415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroundTester;
+			productName = BackgroundTester;
+			productReference = 556679DE1407F1CE0077E415 /* BackgroundTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		556679D51407F1CE0077E415 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 556679D81407F1CE0077E415 /* Build configuration list for PBXProject "BackgroundTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 556679D31407F1CE0077E415;
+			productRefGroup = 556679DF1407F1CE0077E415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				556679DD1407F1CE0077E415 /* BackgroundTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		556679DC1407F1CE0077E415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556679ED1407F1CE0077E415 /* InfoPlist.strings in Resources */,
+				556679F61407F1CE0077E415 /* MainWindow.xib in Resources */,
+				556679FC1407F1CE0077E415 /* BackgroundTesterViewController.xib in Resources */,
+				55667A1B140ECFF30077E415 /* audio.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		556679DA1407F1CE0077E415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556679EF1407F1CE0077E415 /* main.m in Sources */,
+				556679F31407F1CE0077E415 /* BackgroundTesterAppDelegate.m in Sources */,
+				556679F91407F1CE0077E415 /* BackgroundTesterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		556679EB1407F1CE0077E415 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556679EC1407F1CE0077E415 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		556679F41407F1CE0077E415 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556679F51407F1CE0077E415 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		556679FA1407F1CE0077E415 /* BackgroundTesterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556679FB1407F1CE0077E415 /* en */,
+			);
+			name = BackgroundTesterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		556679FD1407F1CE0077E415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		556679FE1407F1CE0077E415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55667A001407F1CE0077E415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTester/BackgroundTester-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTester/BackgroundTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55667A011407F1CE0077E415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTester/BackgroundTester-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTester/BackgroundTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		556679D81407F1CE0077E415 /* Build configuration list for PBXProject "BackgroundTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556679FD1407F1CE0077E415 /* Debug */,
+				556679FE1407F1CE0077E415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556679FF1407F1CE0077E415 /* Build configuration list for PBXNativeTarget "BackgroundTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55667A001407F1CE0077E415 /* Debug */,
+				55667A011407F1CE0077E415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 556679D51407F1CE0077E415 /* Project object */;
+}
