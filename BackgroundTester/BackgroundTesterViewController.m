@@ -98,7 +98,7 @@
     }
     
     locationManager.delegate = self;
-    locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
     
     // Set a movement threshold for new events.
     locationManager.distanceFilter = 0.1;
